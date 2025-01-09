@@ -1,13 +1,4 @@
 
-if c(username)=="packham1" {
-*cd "C:\Users\packham1\Dropbox\Opioid Project"
-cd "/Users/packham1/Dropbox/Opioid Project"
-}
-
-clear all
-set maxvar 15000
-
-*
 use ./Data/county_mort0016_withcontrols.dta, clear
 set more off
 set matsize 11000
